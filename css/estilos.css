@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'playfair display';
+    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'playfair display';
+    color: black;
+    background-color: #979898;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    gap: 100px;
+    padding-top: 110px;
+    margin-right: 500px;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+/* menu desplegable */
+header nav ul li ul {
+    position: absolute;
+    display: none;
+    background-color: #535b63;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 0 0 0 -10px;
+    border-radius: 4px;
+}
+
+header nav ul li ul li {
+    display: block;
+}
+
+header nav ul li:hover ul {
+    display:block;
+}
+
+.titulosnav{
+    font-size: 30px;
+}
+
+/* Imagen portada home */
+.banner{
+    width: 100%;
+}
+
+/* Texto imagen portada home */
+.margen{
+    margin: 10px;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+/* Pie de página */
+/* Para acomodar el pie de página abajo a la derecha */
+footer{
+    display: flex;
+    justify-content: end;
+}
+
+/* Para acomodar el pie de página abajo a la derecha */
+.footer{
+    text-align: right;
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Modificación del tamaño y separación del logo de instagram */
+.logo-instagram{
+    width: 3%;
+    padding: 4px;
+}
+
+/* Page Personla Work */
+/* Display Flex para poder poner las dos imagenes en la misma línea y centradas */
+.personal-work{
+    display: flex;
+    justify-content: center;
+}
+
+/* Modificación de los tamaós de las imagenes de referencia y separación entre ellas */
+.fotomontajes{
+    width: 50%;
+    margin: 8px;
+}
+
+/* Para acomodar Título h1: Mis creaciones más recientes */
+.centrar-texto{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+/* Para acomodar y modificar texto que acompaña las imágenes */
+.centrar-margen{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Botón: Click Aquí */
+.button{
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 35px;
+}
+
+/* Page Live Shows */
+/* Foto de inicio del futuro carrusel */
+.slideshow{
+    padding-top: 40px;
+    margin-left: 450px;
+    margin-right: 400px;
+    width: 2000px;
+}
+
+/* Texto que acompaña la foto */
+.texto-liveshows{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+/* Page Food & Still Life */
+/* Título:Fotografía Gastronómica */
+.titulo-izquierda{
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+}
+
+/* Fotos de refrencias de gastronomía */
+.fotos-gastronomicas{
+    width: 830px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+/* Texto que acompaña la imagen */
+.texto-gastronomico{
+    padding: 30px;
+    margin-left: 80px;
+    font-size: 35px;
+}
+
+/* Page Contact Me */
+/* Aplicación de display flex sobre foto de la artista y formulario */
+.foto-formulario{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Título h2: Contactate Conmigo */
+.tituloh2{
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+/* Formulario */
+.casillas-formulario{
+    padding: 30px;
+    font-size: 20px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.modificador-inputs{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.modificador-textarea{
+    padding:100px;
+    border-width: 5px;
+    height: 200px;
+}
+
+/* Boton de Enviar */
+.boton-formulario{
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+/* Fotografía de la artista de referencia */
+.foto-contactme{
+    width: 1450px;
+}
+
+/* Modificación de los logos de mail y de whatsapp */
+.tamaño-mail-wap{
+    width: 25px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+
+/* Para acomodar la ubicación de los los logos de mail y whatsapp */
+.logo-mail-wap{
+    display: flex;
+    align-items: end;
+    margin-right: 200px;
+    padding-bottom: 100px;
+}
