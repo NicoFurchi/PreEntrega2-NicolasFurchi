@@ -26,6 +26,7 @@ header nav ul{
 
 header nav ul li a{
     text-decoration: none;
+    color: black;
 }
 
 /* menu desplegable */
@@ -58,9 +59,11 @@ header nav ul li:hover ul {
 
 /* Texto imagen portada home */
 .margen{
-    margin: 10px;
+    margin: 0px;
     font-size: 35px;
     padding-top: 10px;
+    padding-left: 10px;
+
 }
 
 /* Pie de página */
